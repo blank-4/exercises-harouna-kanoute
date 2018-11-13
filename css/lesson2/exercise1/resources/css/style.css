@@ -3,7 +3,6 @@
 }
 ul li{
     background-color: #00FF00;
-    text-decoration: none;
 }
 .left h1{
     font-size: .5em;
@@ -13,7 +12,7 @@ ul li{
     font-weight: bold;
 }
 
-span [title]{
+span[title]{
    font-style: italic;
 }
 .lorem{
