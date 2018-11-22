@@ -1,0 +1,18 @@
+
+@media print and (min-width:200px){
+    p{
+        color:red;
+    }
+}
+
+@media print and (min-width: 200px) and (max-width:600px){
+    p{
+        color:yellow;
+    }
+}
+
+@media print and (max-width: 500px){
+    p{
+        color:green;
+    }
+}
