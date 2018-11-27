@@ -1,0 +1,60 @@
+
+nav{
+    width: 50%;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;    
+    background-color: aqua;
+    align-items: center;
+}
+nav:hover{
+    background-color: black;
+    color: white;
+    transition:  0.3s;
+}
+nav > ul {
+    text-align: center;
+}
+nav > ul > li{
+    display: inline-block;
+    margin-right: 3em;
+}
+
+#section1 {
+    display: none;
+    width: 70%;
+    height: 600px;
+    background-color: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+}
+#section1:target{
+    display: block;
+}
+
+}
+#section2{
+    display: none;
+    width: 70%;
+    height: 600px;
+    background-color: yellowgreen;
+    margin-left: auto;
+    margin-right: auto;
+}
+#section2:target{
+    display: block;
+}
+
+
+#section3{
+    display: none;
+    width: 70%;
+    height: 600px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+}
+#section3:target{
+    display: block;
+}
+

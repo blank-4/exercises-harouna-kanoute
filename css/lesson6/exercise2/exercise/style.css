@@ -1,0 +1,20 @@
+#animation{
+    width: 50%;
+    height: 50px;
+    background-color: black;
+    animation: animate 5s linear 0s infinite;
+    border-radius: 15px;
+}
+
+@keyframes animate{
+    0%{ width: 250px;
+        background-color: red}
+    25%{ width: 500px;
+        background-color: yellow}
+    50%{width: 750px;
+        background-color: blue}
+    75%{width:1000px;
+        background-color:green}
+    100%{width:1200px;
+        background-color: gray}
+}
