@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+    <div id="app">
+        <p>
+            {{nom}}
+           {{nombre}}
+        </p>
+        <button @click="changeName"> Change name</button>
+        <button @click="incrementer">Increment</button>
+        
+        <button @click="destroy">Destroy</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
